@@ -14,6 +14,9 @@ namespace AmazonMerchantFulfillment.Business
         /// <returns> true if success, false otherwise </returns>
         public bool GetData(ref Para ds)
         {
+            shipping_outDA sp = new shipping_outDA();
+            sp.Update("1", "Binh2");
+
             ParaDA da = new ParaDA();
             try
             {
