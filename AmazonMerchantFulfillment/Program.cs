@@ -20,10 +20,13 @@ namespace AmazonMerchantFulfillment
 
             // for test only
             //
-            AmazonMerchantFulfillment.Business.ParaBs bs = new Business.ParaBs();
-            AmazonMerchantFulfillment.DataDefinition.Para ds = null;
-            bs.GetData(ref ds);
+            //AmazonMerchantFulfillment.Business.ParaBs bs = new Business.ParaBs();
+            //AmazonMerchantFulfillment.DataDefinition.Para ds = null;
+            //bs.GetData(ref ds);
             //
+            AmazonMerchantFulfillment.Business.OrderBs o = new Business.OrderBs();
+            o.GetOrder("1");
+
             // end test
 
             Application.Run(new MainUI());
