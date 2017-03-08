@@ -56,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitBucketTest.cs" />
     <Compile Include="Business\BaseBs.cs" />
     <Compile Include="Business\OrderBs.cs" />
     <Compile Include="Business\ParaBs.cs" />
